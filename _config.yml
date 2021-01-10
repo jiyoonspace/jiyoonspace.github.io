@@ -1,0 +1,30 @@
+name: Jiyoonblog
+url: https://huangdii.github.io/
+baseurl: 
+description: Explorer 
+github: https://www.github.com/huangdii
+#twitter: http://www.twitter.com/
+#facebook: http://www.facebook.com
+linkedin: https://www.linkedin.com/in/jiyoon-hwang-954787130/
+email: jiyoonh[at]kaeri.re.kr
+#disqus: diqus-username
+
+##Make sure to edit the above fields, especially for disqus.
+
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
