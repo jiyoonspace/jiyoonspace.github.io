@@ -4,6 +4,9 @@
 <html lang="en">
   <head>
     {% include header.html %}
+    {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include GA.html %}
+    {% endif %}
   </head>
   <body>
     <div class="nav-toggle"><i class="fa fa-bars fa-2x"></i> Jiyoon Hwang </div>
