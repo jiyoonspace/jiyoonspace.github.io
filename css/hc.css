@@ -662,7 +662,10 @@ time {
         padding: 0 10px 0 10px;
     }
 
-
+    #responsive-image {
+        width: 100%;
+        height: auto;
+    } 
 
 
     .showcase-wrapper {
