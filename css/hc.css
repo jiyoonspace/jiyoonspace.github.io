@@ -41,7 +41,7 @@ p {
 }
 .videoContainer 
 {
-    position:absolute;
+    position:relative;
     height:100%;
     width:100%;
     overflow: hidden;
@@ -49,8 +49,8 @@ p {
 
 .videoContainer video 
 {
-    min-width: 80%;
-    min-height: 80%;
+    min-width: 100%;
+    min-height: 100%;
 }
 .posts {
     font-size: 20px;
