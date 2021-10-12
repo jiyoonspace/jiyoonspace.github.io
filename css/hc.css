@@ -39,19 +39,12 @@ p {
     font-family: "Helvetica Neue", helvetica, "Open Sans", sans-serif;
     font-weight: 200
 }
-.videoContainer 
-{
-    position:relative;
-    height:100%;
-    width:100%;
-    overflow: hidden;
+
+video {
+  max-width: 100%;
+  height: auto;
 }
 
-.videoContainer video 
-{
-    min-width: 100%;
-    min-height: 100%;
-}
 .posts {
     font-size: 20px;
     list-style: none;
