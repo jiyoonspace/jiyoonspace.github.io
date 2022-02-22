@@ -10,7 +10,7 @@ email: jiyoon[at]tamu.edu
 #disqus: diqus-username
 # Google Analytics
 google_analytics: G-KDY7TYLD7N
-og_image: "{{ site.baseurl }}/images/showcase.jpg"
+og_image: "/images/showcase.jpg"
 ##Make sure to edit the above fields, especially for disqus.
 
 
