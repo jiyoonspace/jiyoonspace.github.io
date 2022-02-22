@@ -30,7 +30,7 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 group :jekyll_plugins do
   gem 'jekyll-sitemap'
-  gem 'jekyll-feed'
+  gem 'jekyll-feed', "~> 0.12"
   gem 'jekyll-seo-tag'
   gem 'jekyll-linkpreview'
 end 
