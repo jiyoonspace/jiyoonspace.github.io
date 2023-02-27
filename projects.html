@@ -10,6 +10,7 @@ title: Projects
         <a href="#"><span class="label label-danger">...</span></a>
     </center>
 </div>
+
 <div class="container">
     <div class="project-box">
         <div class="row">
@@ -18,13 +19,69 @@ title: Projects
             </div>
             <div class="col-md-9 project-post">
                 <h1>Tooluse</h1><h4>NEAT tooluse learning - genetic algorithm</h4>
-                <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> 2019</small></p><hr />
+                <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> Jan 2023 - Current</small></p><hr />
                 <div class="post" style="width: 90%; text-align: justify">
+                    <b>"Brain Networks Laboratory - Texas A&M University"</b>
+                    Implemented a tool use algorithm for moving target based on the previous work from Qinbo Li et al.'s work 
+                    (Emergence of tool use in an articulated limb controlled by evolved neural circuits, 10.1109/IJCNN.2015.7280564)
+                    NEAT (Neuroevolution of augmenting topologies) is genetic algorithm for the generation of evolving artificial neural networks.
+                    <br /><br />
                     <h4> NEAT tool use learning demo video </h4><br/>
-                    <br /><br />
-                    Implemented a tool use algorithm for moving target based on the previous work from Qinbo Li et al.'s work (Emergence of tool use in an articulated limb controlled by evolved neural circuits, 10.1109/IJCNN.2015.7280564)
-                    <br /><br />
                     <video src="{{ site.baseurl }}/files/neat_tooluse.mp4" id="responsive-image" controls muted autoplay playsinline loop> </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="project-box">
+        <div class="row">
+            <div class="col-md-3 project-image">
+                <img src="{{ site.baseurl }}/images/rl_navi.jpg">
+            </div>
+            <div class="col-md-9 project-post">
+                <h1>RL for mobile robot navigation</h1><h4> Comparison between DWA and RL-based Navigation for Mobile Robot</h4>
+                <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> Nov 2021 - Dec 2021</small></p><hr />
+                <div class="post" style="width: 90%; text-align: justify">
+                    <b>"Intelligent Robotics course project - Texas A&M University"</b>
+                    <br /><br />
+                    This project aims to compare two robot navigation strategies: Reinforcement Learning (RL) based navigation and Dynamic Window Approach (DWA) based navigation. 
+                    For RL-based navigation approach, Q-learning algorithm is employed as an off-policy RL method. 
+                    This approach does not need to construct, store, or maintain an accurate global map to perform autonomous exploration, 
+                    which is the benefit of using RL for robot navigation. DWA method is collision avoidance path planning technique 
+                    used a lot in ROS Navigation package and effective especially in dynamical environment. 
+                    A differential drive mobile robot with 2-dimensional LiDAR sensor and IMU sensor is tested in the Gazebo 
+                    simulator environment using two algorithms. This project discusses the simulation results and compare two approaches.
+                    <br />
+                    <a href="https://github.com/huangdii/MobileRobotRL">Github</a> 
+                    <br />
+                    <h4> Q-learning mobile navigation demo video </h4><br/>
+                    <video src="{{ site.baseurl }}/files/rl_navigation.mp4" id="responsive-image" controls muted autoplay playsinline loop> </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="project-box">
+        <div class="row">
+            <div class="col-md-3 project-image">
+                <img src="{{ site.baseurl }}/images/fashionxt.jpg">
+            </div>
+            <div class="col-md-9 project-post">
+                <h1>Web application</h1><h4> Event Guest List Automation </h4>
+                <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> Nov 2021 - Dec 2021</small></p><hr />
+                <div class="post" style="width: 90%; text-align: justify">
+                    <b>"Software Engineering course project - Texas A&M University"</b>
+                    <br /><br />
+                    Our team developed a SaaS web application which is called ‘Event Guest List Automation’ using Ruby on rails and deployed it on Heroku using Agile methodologies. 
+                    We implemented features to manage box office sales and guest lists from the databases and to edit/send RSVP/Referral emails to customers.
+                    I implemented Cucumber and RSpec test cases with Capybara to increase the test coverage and accomplished more than 70% of code coverage. BDD, TDD, Cucumber, RSpec, Agile.
+                    <br />
+                    <a href="https://github.com/huangdii/Event-Guest-List-Automation">Github</a> 
+                    <br />
+                    <h4> Event guest list automation demo video </h4><br/>
+                    <iframe src="https://youtu.be/orityZjlSek" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="width: 90%; height: 100%;" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
