@@ -1,5 +1,261 @@
-<div id="welcome-greeting">
+<!-- <div id="welcome-greeting">
     <h1>My Journey</h1>
     <h2><br>Hello. I'm Jiyoon Hwang. Welcome to my blog. Please click "Projects" tab to see my work.</h2>
     <hr />
+</div> -->
+---
+title: Projects
+---
+
+<div class="container">
+</div>
+<div class="project-container">
+    <h1>Projects</h1>
+    <br><center>
+        <a href="#"><span class="label label-danger">...</span></a>
+    </center>
+</div>
+
+<div class="container">
+    <div class="project-box">
+        <div class="row">
+            <div class="col-md-3 project-image">
+                <img src="{{ site.baseurl }}/images/tooluse.jpg">
+            </div>
+            <div class="col-md-9 project-post">
+                <h1>Tooluse algorithm</h1><h4>NEAT tooluse learning - genetic algorithm</h4>
+                <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> Jan 2023 - Current</small></p><hr />
+                <div class="post" style="width: 90%; text-align: justify">
+                    <b>"Brain Networks Laboratory - Texas A&M University"</b>
+                    <br /><br />
+                    Implemented a tool use algorithm for moving target based on the previous work from Qinbo Li et al.'s work 
+                    (Emergence of tool use in an articulated limb controlled by evolved neural circuits, 10.1109/IJCNN.2015.7280564)
+                    NEAT (Neuroevolution of augmenting topologies) is genetic algorithm for the generation of evolving artificial neural networks.
+                    <br /><br />
+                    <h4> NEAT tool use learning demo video </h4><br/>
+                    <video src="{{ site.baseurl }}/files/neat_tooluse.mp4" id="responsive-image" controls muted autoplay playsinline loop> </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="project-box">
+        <div class="row">
+            <div class="col-md-3 project-image">
+                <img src="{{ site.baseurl }}/images/rl_navi.jpg">
+            </div>
+            <div class="col-md-9 project-post">
+                <h1>RL for mobile robot navigation</h1><h4> Comparison between DWA and RL-based Navigation for Mobile Robot</h4>
+                <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> Nov 2021 - Dec 2021</small></p><hr />
+                <div class="post" style="width: 90%; text-align: justify">
+                    <b>"Intelligent Robotics course project - Texas A&M University"</b>
+                    <br /><br />
+                    This project aims to compare two robot navigation strategies: Reinforcement Learning (RL) based navigation and Dynamic Window Approach (DWA) based navigation. 
+                    For RL-based navigation approach, Q-learning algorithm is employed as an off-policy RL method. 
+                    This approach does not need to construct, store, or maintain an accurate global map to perform autonomous exploration, 
+                    which is the benefit of using RL for robot navigation. DWA method is collision avoidance path planning technique 
+                    used a lot in ROS Navigation package and effective especially in dynamical environment. 
+                    A differential drive mobile robot with 2-dimensional LiDAR sensor and IMU sensor is tested in the Gazebo 
+                    simulator environment using two algorithms. This project discusses the simulation results and compare two approaches.
+                    <br />
+                    <a href="https://github.com/huangdii/MobileRobotRL">Github</a> 
+                    <br />
+                    <h4> Q-learning mobile navigation demo video </h4><br/>
+                    <video src="{{ site.baseurl }}/files/rl_navigation.mp4" id="responsive-image" controls muted autoplay playsinline loop> </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="project-box">
+        <div class="row">
+            <div class="col-md-3 project-image">
+                <img src="{{ site.baseurl }}/images/fashionxt.jpg">
+            </div>
+            <div class="col-md-9 project-post">
+                <h1>Web application</h1><h4> Event Guest List Automation </h4>
+                <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> Nov 2021 - Dec 2021</small></p><hr />
+                <div class="post" style="width: 90%; text-align: justify">
+                    <b>"Software Engineering course project - Texas A&M University"</b>
+                    <br /><br />
+                    Our team developed a SaaS web application which is called ‘Event Guest List Automation’ using Ruby on rails and deployed it on Heroku using Agile methodologies. 
+                    We implemented features to manage box office sales and guest lists from the databases and to edit/send RSVP/Referral emails to customers.
+                    I implemented Cucumber and RSpec test cases with Capybara to increase the test coverage and accomplished more than 70% of code coverage. BDD, TDD, Cucumber, RSpec, Agile.
+                    <br />
+                    <a href="https://github.com/huangdii/Event-Guest-List-Automation">Github</a> 
+                    <br />
+                    <h4> Event guest list automation demo video </h4><br/>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/orityZjlSek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="project-box">
+        <div class="row">
+            <div class="col-md-3 project-image">
+                <img src="{{ site.baseurl }}/images/kaeri.jpg">
+            </div>
+            <div class="col-md-9 project-post">
+                <h1>Nuclear Safety Robot</h1><h4>Patrol mobile robot & Dual-arm manipulator</h4>
+                <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> Oct 2020 - Jun 2021</small></p><hr />
+                <div class="post" style="width: 90%; text-align: justify">
+                    <b>"Korea Atomic Energy Research Institute (KAERI) - Nuclear Robot Division"</b>
+                    <br /><br />
+                    <h4>1) Outdoor/Indoor mobile robot for monitoring radiation level</h4>
+                    <br /><br />
+                    In this project, I am responsible for all the software parts of the mobile robot. We implemented mapping, localization, optimal path planning, and control using Robot Operating System (ROS). While doing research to use the topological map for global path planner, we are trying to reduce the computational burden and required storage for long-term autonomy and high precision.
+                    <br /><br />
+                    <img src="{{ site.baseurl }}/images/mobrob.jpg" id="responsive-image" >
+                    <br /><br />
+                    <img src="{{ site.baseurl }}/images/gangwon.jpg" id="responsive-image" >
+                    <br /><br />
+                    <b>Autonomous mobile robot indoor navigation via waypoints based on ROS. The playback speed is 4 times faster.</b>
+                    <br /><br />
+                    <video src="{{ site.baseurl }}/files/mobile-robot.mp4" id="responsive-image" controls playsinline loop> </video>
+                    <br /><br />
+                    <br /><br />
+                    <h4>2) Reinforcement learning of KUKA iiwa dual-arm manipulator</h4>
+                    <br /><br />
+                    <img src="{{ site.baseurl }}/images/gripper.jpg" id="responsive-image" >
+                    <br /><br />
+                    <br /><br />
+                    <h4>Shared autonomy preliminary framework for remote operation in hot cell testbed. The playback speed is 4 times faster.</h4>
+                    <br /><br />
+                    <video src="{{ site.baseurl }}/files/robotic-arm-video.mp4" id="responsive-image" controls playsinline loop> </video>
+                    <br /><br />
+                    <br /><br />
+                    <h4>3D map of Cave from recorded data using Velodyne LiDAR</h4>
+                    <br /><br />
+                    <video src="{{ site.baseurl }}/files/cave.mp4" id="responsive-image" controls autoplay playsinline loop> </video>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="project-box">
+        <div class="row">
+            <div class="col-md-3 project-image">
+                <img src="{{ site.baseurl }}/images/servebot.jpg">
+            </div>
+            <div class="col-md-9 project-post">
+                <h1>Servebot</h1><h4>Self-driving restaurant server robot</h4>
+                <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> 2019</small></p><hr />
+                <div class="post" style="width: 90%; text-align: justify">
+                    <h4>"We created a self-driving restaurant server robot."</h4> 
+                    <iframe src="https://www.youtube.com/embed/ZEJxiUgymcY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="width: 90%; height: 100%;" allowfullscreen></iframe>
+                    <br /><br />
+                    When a customer enters and sits at a table, the mobile robot moves to the table to receive the customer's order. After a customer selects a menu through the UI of the mobile phone, the robot returns to the start point, the place to receive food. When the ordered food is ready, the manager loads the food onto the robot. The robot then delivers the food to the table where the customer is sitting. It detects dynamic objects and plans new local path while receiving lidar and camera sensor data. During the robot is moving to the table, if a dynamic object that interferes with the globally planned path within 2 meters, the robot avoids it, and safely get to the destination. After the customer took food from the robot, the robot returned to the start point. 
+                    <br /><br />
+                    <h4>[Interface Diagram]</h4><br />
+                    <img src="{{ site.baseurl }}/images/interface.JPG" id="responsive-image" >
+                    <br /><br />
+                    <h4> Motor control while detecting lanes using OpenCV</h4><br/>
+                    <video src="{{ site.baseurl }}/files/lane-detection-motor.mp4" id="responsive-image" controls muted autoplay playsinline loop> </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="project-box">
+        <div class="row">
+            <div class="col-md-3 project-image">
+                <img src="{{ site.baseurl }}/images/iss.JPG" >
+            </div>
+            <div class="col-md-9 project-post">
+                <h1>Satellite Trajectory & Attitude Control</h1><h4>Collision avoidance around ISS, Multiple Satellites Formation Flying</h4>
+                <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> 2016~2018</small></p><hr />
+                <div class="post" style="width:90%;text-align:justify">
+                    "Collision-Free Control for Formation Flying of Multiple Satellites Using Artificial Potential Field (APF)"
+                    <br /><br />
+                    This study presents satellite formation flying trajectory design and control based on virtual structure while avoiding obstacles using the artificial potential field (APF). To
+                    derive virtual structure formation control laws based on the APF, a formation potential function is defined, which enables multiple satellites to maintain a polygonal or tetrahedral
+                    formation. As an efficient method to circumvent the local minimum which often occurs in APF-based approach, a rotational potential function is newly derived in a local coordinate
+                    frame in the APF framework. In order to design and control the formation flying trajectory considering collision avoidance, gradient-based control laws are derived from a total
+                    potential function which is defined by combining the formation and the rotational potential function. The proposed control law goes through stability analysis by Lyapunov stability
+                    theorem and Barbalat's lemma. By integrating the newly defined potential functions for collision avoidance and formation control, the control laws can be designed based on the APF 
+                    that guarantees the stability of the control system. Also, by defining the potential functions as above, the SMC is applicable to further improve the performance of the control laws.
+                    <br /><br />
+                    <img src="{{ site.baseurl }}/images/frame.JPG" id="responsive-image" > 
+                    <br /><center>Earth-Centered Inertia Coordinate</center>
+                    <br /><br />
+                    "4 CubeSats - Collision Avoidance around International Space Station"
+                    <br /><br />
+                    <p> The 4 cube satellites are controlled to move toward their goal points and get their goal attitudes while avoiding collision. Their minimum Euclidian distance is 1.99meters.</p>
+                    <br /><br />
+                    <video src="{{ site.baseurl }}/files/HUANGDI_v2.mp4" id="responsive-image" controls autoplay playsinline> </video>
+                    <br /><br />
+                    "Formation Flying of Multiple Satellites in Space"
+                    <br /><br />
+                    <p>This is an example in which 6 cubesats are flying in a regular hexagonal formation. The playback speed was hundreds of times faster.</p>
+                    <br /><br />
+                    <video src="{{ site.baseurl }}/files/hexagon.mp4" id="responsive-image" controls autoplay playsinline> </video>
+                    <br /><br />
+                    <p>This is an example in which 5 satellites are flying in a regular pentagonal formation. One satellite fails in the process of avoiding an obstacle, and the remaining 4 satellites are controlled to maintain the square formation. The playback speed was hundreds of times faster.</p>
+                    <br /><br />
+                    <video src="{{ site.baseurl }}/files/pentagon2square.mp4" id="responsive-image" controls autoplay playsinline> </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="project-box">
+        <div class="row">
+            <div class="col-md-3 project-image">
+                <img src="{{ site.baseurl }}/images/canyval-x.jpg">
+            </div>
+            <div class="col-md-9 project-post">
+                <h1>CANYVAL-X</h1><h4>Cube Satellite Competition</h4>
+                <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> 2015~2016</small></p><hr />
+                <div class="post" style="width: 90%; text-align: justify">
+                    "CANYVAL-X: CubeSat Astronomy by NASA and Yonsei using Virtual Telescope Alignment eXperiment"
+                    <br /><br />
+                     The CANYVAL-X mission consists of two CubeSats: one serves as the lens satellite and the other as a detector for satellite movement in a virtual telescope. The primary
+                    mission objective of CANYVAL-X is to build an inertial alignment system for the virtual telescope with respect to the target object (the Sun) during a few minutes by
+                    using two CubeSats, Tom (2U) and Jerry (1U). The secondary mission objective is to provide an opportunity for CubeSat development and flight operation by students.
+                    The objective of this mission is not to observe the Sun directly but to test the required technology for the virtual telescope system in space.<br />
+                    <br /><br />
+                    <img src="{{ site.baseurl }}/images/canyvalx.JPG" id="responsive-image" >
+                    <br /><br />
+                    I worked as a researcher in development of an attitude determination and a control system for the CANYVAL-X mission with the Astrodynamics and Control Laboratory (ACL) team (<a href="http://acl.yonsei.ac.kr/">ACL homepage</a>).
+                    <br /><br />
+                    We worked hard to verify separate space telescope technology using two CubeSats, Tom(2U) and Jerry(1U). After passing all the space environment tests to get into space in Korea Aerospace Research Institute, the CubeSats were launched by India's Polar Satellite Launch Vehicle in 2018. They orbited around the earth and Tom sent signals to our ground station that it was alive. However, due to a flaw in the communication system, we failed to carry out our mission. However, it was an exceptional experience for me to learn a lot about satellites and control systems.
+                    <br /><br />Publication: CANYVAL-X Mission Development Using CubeSats (<a href="https://huangdii.github.io/files/springer_CANYVAL-X.pdf">PDF</a> / <a href="https://link.springer.com/chapter/10.1007/978-3-319-51941-8_30">LINK</a>)
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="project-box">
+        <div class="row">
+            <div class="col-md-3 project-image">
+                <img src="{{ site.baseurl }}/images/cansat_jiyoon.jpg">
+            </div>
+            <div class="col-md-9 project-post">
+                <h1>Saljjakkoong</h1><h4>Can Satellite Competition</h4>
+                <p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i> 2015</small></p><hr />
+                <div class="post" style="width: 90%; text-align: justify">
+                    "Saljjakkoong: Gently Landing Can Satallite"
+                    <br /><br />
+                    Satellite club "SatY" members and I participated in Can Satellite Competition. Our satellite name is "Saljjakkoong" and our mission goal was generating power using wind energy generator and controlling the satellite with reaction wheel so that the rotation axis could be vertical to the ground surface with under 10% error. If the altitude reaches under 40m from ground surface, then airbag was deployed so that the satellite can land saljjakkoong which means gently landing.  <br />
+                    <br /><br />
+                    <img src="{{ site.baseurl }}/images/cansat_sat.jpg">
+                    <br /><br />
+                    <img src="{{ site.baseurl }}/images/cansat_gps.jpg">
+                    <br /><br />
+                    I was responsible for implementing communication system of the satellite using Zigbee and Arduino. We launched the satellite using small rocket and I received real time GPS, Attitude, Altitude data. The competition day was very windy so our satellite couldn’t control itself properly so it fell into a field. <br/>
+                    <br />
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
